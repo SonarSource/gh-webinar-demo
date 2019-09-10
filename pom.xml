@@ -4,7 +4,7 @@
     <groupId>com.sonarsource</groupId>
     <artifactId>citytour2019-java</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>City Tour - .NET project</name>
+    <name>City Tour - Java project</name>
     <url>https://github.com/SonarSource-City-Tour/city-tour-java</url>
 
     <scm>
