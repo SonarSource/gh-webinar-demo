@@ -12,7 +12,7 @@ elif [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
     -Dsonar.pullrequest.base=$TRAVIS_BRANCH \
     -Dsonar.pullrequest.key=$TRAVIS_PULL_REQUEST \
     -Dsonar.pullrequest.provider=github \
-    -Dsonar.pullrequest.github.repository=$TRAVIS_REPO_SLUG \
+    -Dsonar.pullrequest.github.repository=$TRAVIS_REPO_SLUG
 fi
 
 
