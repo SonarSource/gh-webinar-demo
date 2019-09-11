@@ -1,13 +1,6 @@
-# Java Maven-based project analyzed on SonarCloud using Travis
+# Java demo for the City Tour
 
-[![Build status](https://travis-ci.org/SonarSource/sq-com_example_java-maven-travis.svg?branch=master)](https://travis-ci.org/SonarSource/sq-com_example_java-maven-travis) [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=com.sonarqube.examples%3Ajava-maven-travis-project&metric=alert_status)](https://sonarcloud.io/dashboard/index/com.sonarqube.examples:java-maven-travis-project)
+[![Build status](https://travis-ci.com/SonarSource-City-Tour/city-tour-java.svg?branch=master)](https://travis-ci.com/SonarSource-City-Tour/city-tour-java) [![Quality Gate Status](https://next.sonarqube.com/sonarqube/api/project_badges/measure?project=com.sonarsource%3Acitytour2019-java&metric=alert_status)](https://next.sonarqube.com/sonarqube/dashboard?id=com.sonarsource%3Acitytour2019-java)
 
-#### This project is analysed on [SonarCloud](https://sonarcloud.io/dashboard/index/com.sonarqube.examples:java-maven-travis-project)!
-
-It is very easy to run an analysis on a Maven-based project and push it to SonarCloud.
-You simply have to do 2 things in your `.travis.yml` file:
-* Activate the [Travis Add-on](https://docs.travis-ci.com/user/sonarcloud/)
-* Run `mvn sonar:sonar` at some point of time in the `script` section
-
-You can take a look at the [.travis.yml file](https://github.com/SonarSource/sq-com_example_java-maven-travis/blob/master/.travis.yml)
-of this project to see it in practice.
+The project is built on Travis CI: https://travis-ci.com/SonarSource-City-Tour/city-tour-java/
+Only the master branch and PR are analyzed.
