@@ -5,7 +5,8 @@ import java.util.ArrayList;
 
 public final class BusinessThingsUtils {
 
-    public BusinessThingsUtils() {}
+    private BusinessThingsUtils() {   
+    }
 
     public static String[] doComplexBusinessThings(String taintedString) {
         List<String> stockList = new ArrayList<String>();

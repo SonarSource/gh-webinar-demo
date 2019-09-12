@@ -26,9 +26,9 @@ public class Servlet extends HttpServlet {
     }
 
     taintedString = taintedRequest.getParameter(FIELD_NAME);
-    taintedString = java.net.URLDecoder.decode(taintedString, "UTF-8");
-
     try {
+      taintedString = java.net.URLDecoder.decode(taintedString, "UTF-8");
+
       new SQLInjectionVulnerability(taintedString);
       new CommandInjectionVulnerability(taintedString);
       new RegexInjectionVulnerability(taintedString);
