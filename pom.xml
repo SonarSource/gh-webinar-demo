@@ -2,15 +2,15 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.sonarsource</groupId>
-    <artifactId>citytour2019-java</artifactId>
+    <artifactId>gh-webinar-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>City Tour - Java project</name>
-    <url>https://github.com/SonarSource-City-Tour/city-tour-java</url>
+    <name>GitHub Webinar Demo</name>
+    <url>https://github.com/SonarSource/gh-webinar-demo</url>
 
     <scm>
-        <connection>scm:git:git@github.com:SonarSource-City-Tour/city-tour-java.git</connection>
-        <developerConnection>scm:git:git@github.com:SonarSource-City-Tour/city-tour-java.git</developerConnection>
-        <url>https://github.com/SonarSource-City-Tour/city-tour-java</url>
+        <connection>scm:git:git@github.com:SonarSource/gh-webinar-demo.git</connection>
+        <developerConnection>scm:git:git@github.com:SonarSource/gh-webinar-demo.git</developerConnection>
+	<url>https://github.com/SonarSource/gh-webinar-demo</url>
     </scm>
 
     <properties>

@@ -1,8 +1,8 @@
-# Java demo for the City Tour
+# Demo for SonarSource Webinar
 
-[![Build status](https://travis-ci.com/SonarSource-City-Tour/city-tour-java.svg?branch=master)](https://travis-ci.com/SonarSource-City-Tour/city-tour-java) [![Quality Gate Status](https://next.sonarqube.com/sonarqube/api/project_badges/measure?project=com.sonarsource%3Acitytour2019-java&metric=alert_status)](https://next.sonarqube.com/sonarqube/dashboard?id=com.sonarsource%3Acitytour2019-java)
+[![Build status](https://travis-ci.com/SonarSource/gh-webinar-demo?branch=master)](https://travis-ci.com/SonarSource/gh-webinar-demo) [![Quality Gate Status](https://next.sonarqube.com/sonarqube/api/project_badges/measure?project=com.sonarsource%3Agh-webinar-demo&metric=alert_status)](https://next.sonarqube.com/sonarqube/dashboard?id=com.sonarsource%3Agh-webinar-demo)
 
-The project is built on Travis CI: https://travis-ci.com/SonarSource-City-Tour/city-tour-java/
+The project is built on Travis CI: https://travis-ci.com/SonarSource/gh-webinar-demo
 Only the master branch and PR are analyzed.
 
 # Java SAST features demo for the City Tour
