@@ -5,14 +5,16 @@
 The project is built on Travis CI: https://travis-ci.org/SonarSource/gh-webinar-demo
 Only the master branch and PRs are analyzed.
 
-# Java SAST features demo for the City Tour
+# DEMO: Code Quality & Security in your ALM
 
-## Security Vulnerabilities
+This project branch is used to demonstrate SonarQube Pull Request and branch decoration of Code Quality and Security metrics including the Sonar Way Quality Gate.
 
-* https://rules.sonarsource.com/java/RSPEC-3649 - SQL Injection
-* https://rules.sonarsource.com/java/RSPEC-2076 - Command Injection
+## Code issues presented in this project
 
-## Security Hotspots
+### Code Smell
 
-* https://rules.sonarsource.com/java/RSPEC-2255 - Writing cookies is security-sensitive
-* https://rules.sonarsource.com/java/RSPEC-4790 - Hashing data is security-sensitive
+* https://rules.sonarsource.com/java/RSPEC-1120 - Source code should be indented consistently
+
+### Security Hotspot
+
+* https://rules.sonarsource.com/java/RSPEC-4502 - Disabling CSRF protections is security-sensitive
