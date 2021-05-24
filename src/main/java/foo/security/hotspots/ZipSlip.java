@@ -8,10 +8,11 @@ import java.io.InputStream;
 import java.util.Enumeration;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
+import javax.annotation.Nullable;
 
 public class ZipSlip {
 
-  public static void sanitizeAgainstZipFlipVulnerability(String fileName, String canonicalDestPath, String canonicalDirPath) throws ArchiverException {
+  public static void sanitizeAgainstZipFlipVulnerability(@Nullable String fileName, String canonicalDestPath, String canonicalDirPath) throws ArchiverException {
     if (fileName.indexOf("..") != -1 && !canonicalDestPath.startsWith(canonicalDirPath + File.separator)) { // Sanitizer
       throw new ArchiverException("The file " + fileName + " is trying to leave the target output directory. Ignoring this file.");
     }
